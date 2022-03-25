@@ -524,21 +524,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "hello-rocket"
-version = "0.1.0"
-dependencies = [
- "axum",
- "dotenv",
- "hex",
- "serde",
- "serde_json",
- "tokio",
- "tracing",
- "tracing-subscriber",
- "web3",
-]
-
-[[package]]
 name = "hermit-abi"
 version = "0.1.19"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1170,6 +1155,21 @@ checksum = "999508abb0ae792aabed2460c45b89106d97fe4adac593bdaef433c2605847b5"
 dependencies = [
  "bytes",
  "rustc-hex",
+]
+
+[[package]]
+name = "rust-web3-starter"
+version = "0.1.0"
+dependencies = [
+ "axum",
+ "dotenv",
+ "hex",
+ "serde",
+ "serde_json",
+ "tokio",
+ "tracing",
+ "tracing-subscriber",
+ "web3",
 ]
 
 [[package]]
